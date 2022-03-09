@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestAppLT</string>
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Интернет соединение отсутствует!</string>
+    <string name="phone_mask">+7 ХХХ ХХХ-ХХ-ХХ</string>
+    <string name="password">password</string>
+    <string name="log_in">Log In</string>
+    <string name="ready">Готово</string>
+    <string name="check_data">Проверьте данные и попробуйте снова</string>
+    <string name="wrong_phone_mask">Номер должен иметь следующий формат</string>
+    <string name="apiName">Dev Exam</string>
+    <string name="server_sort">Server sort</string>
+    <string name="by_date_sort">By date sort</string>
+</resources>
