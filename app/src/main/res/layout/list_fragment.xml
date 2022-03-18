@@ -37,40 +37,39 @@
             android:src="@drawable/ic_retry" />
     </androidx.appcompat.widget.Toolbar>
 
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sortSwitch"
+            app:layout_constraintTop_toBottomOf="@id/listToolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            segmentedgroup:sc_tint_color="@color/purple_500"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_corner_radius="6dp">
 
-    <LinearLayout
-        android:id="@+id/sortSwitch"
-        android:layout_margin="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/listToolbar"
-        android:orientation="horizontal">
-        <ToggleButton
-            android:layout_gravity="end"
-            android:id="@+id/toggleButton1"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:textOn="@string/server_sort"
-            android:textOff="@string/server_sort"
-            android:checked="true"/>
+            <RadioButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/server_sort"
+                style="@style/RadioButton"
+                android:checked="true"/>
 
-        <ToggleButton
-            android:layout_gravity="start"
-            android:id="@+id/toggleButton2"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:textOn="@string/by_date_sort"
-            android:textOff="@string/by_date_sort"/>
-
-    </LinearLayout>
-
-
-
+            <RadioButton
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/by_date_sort"
+                style="@style/RadioButton" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeToRefresh"
+        android:layout_marginTop="10dp"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -60,8 +60,8 @@ class ListFragment : ViewBindingFragment<ListFragmentBinding>(ListFragmentBindin
     }
 
     private fun sortSwitcher() {
-        val serverSort = binding.toggleButton1
-        val dateSort = binding.toggleButton2
+        val serverSort = binding.button1
+        val dateSort = binding.button2
 
         serverSort.setOnCheckedChangeListener {_, isChecked ->
             if (isChecked) {

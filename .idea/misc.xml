@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../.gradle/caches/transforms-3/7e69e17d5237c9f102a6e8c9291a22df/transformed/android-segmented-1.0.6/res/drawable/button_text_color.xml" value="0.1515" />
         <entry key="app/src/main/res/drawable/switch_track.xml" value="0.1515" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/detail_fragment.xml" value="0.19610507246376813" />

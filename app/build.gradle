@@ -80,4 +80,6 @@ dependencies {
     //Dagger
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    implementation 'info.hoang8f:android-segmented:1.0.6'
 }
